@@ -1,0 +1,63 @@
+/* responsive design code */
+
+@media (max-width: 2560px) {
+    .main-nav {
+        display: flex;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-nav {
+        display: none;
+    }
+
+    #ham {
+        display: block;
+        padding: 0 0px 0 30px;
+    }
+
+    .header-cont {
+        padding: 10px 50px;
+    }
+
+    #bell {
+        display: none;
+    }
+
+    .banner-content {
+        max-width: 55%;
+        padding-left: 20px;
+        padding-top: 140px;
+    }
+
+    .banner-section {
+        background-position: center;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .banner-content{
+        padding-top: 95px;
+    }
+    .banner_info {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .banner_overview {
+        font-size: 16px;
+        line-height: 1.4;   
+        font-weight: 500; 
+    }
+    .actions-btn {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .btn2 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .banner_title {
+        font-size: 65px;
+    }
+}
